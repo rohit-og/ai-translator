@@ -43,10 +43,6 @@ export default function Home() {
     setTargetText(translation.result);
   };
 
-  const handleTargetTextChange = (text: string) => {
-    setTargetText(text);
-  };
-
   return (
     <div className="flex w-full h-screen items-center justify-center">
       <main className=" max-w-7xl w-full p-4">
